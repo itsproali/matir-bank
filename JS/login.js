@@ -11,6 +11,9 @@ document.getElementById('login-button').addEventListener('click', function () {
         window.location.href = 'home.html'
     }
     else {
-        alert("You entered wrong Email or Password. Please Enter Email: example@gmail.com                                 Password: secret")
+        alert(`
+        You entered wrong Email or Password. 
+        Email: example@gmail.com
+        Password: secret`)
     }
 });
